@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  background-color: black;
+}
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.4) 75%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg);
+  height: 45rem;
+  border-bottom: 10px solid rgba(128, 128, 128, 0.514);
+}
+nav {
+  width: 65%;
+  margin-left: 20rem;
+  padding: 1.5rem;
+}
+nav img {
+  width: 10rem;
+}
+.nav img {
+  width: 1rem;
+}
+.nav {
+  color: white;
+  display: inline;
+  margin-left: 50rem;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 0.3rem;
+}
+.lang {
+  border: 1px solid white;
+  margin-right: 20px;
+}
+.hero {
+  text-align: center;
+  color: white;
+  margin-top: 10rem;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+form button {
+  background-color: red;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  padding: 0.7rem 2rem;
+  border: none;
+}
+form input {
+  height: 50px;
+  border: 1px solid red;
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+form input:focus {
+  border: 2px solid rgb(3, 68, 3);
+}
+form input::placeholder {
+  color: white;
+}
+.firstSec {
+  padding: 6rem 9rem;
+  height: auto;
+  margin-bottom: 2rem;
+  border-bottom: 10px solid rgba(128, 128, 128, 0.514);
+}
+.title {
+  width: 45%;
+  font-size: 2rem;
+  color: white;
+  float: left;
+  margin-top: 10rem;
+  margin-right: 3rem;
+}
+.firstSec img {
+  width: 50%;
+}
+.titleRight {
+  width: 45%;
+  font-size: 2rem;
+  color: white;
+  float: right;
+  margin-top: 10rem;
+  margin-right: 3rem;
+}
+.secSec {
+  color: white;
+  padding: 6rem 9rem;
+  height: auto;
+  margin-bottom: 2rem;
+  border-bottom: 10px solid rgba(128, 128, 128, 0.514);
+}
+.secSec h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.secSec .link {
+  background-color: grey;
+  padding: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.form p {
+  text-align: center;
+  font-size: 30px;
+}
+.secSec .link::after {
+  content: "+";
+  font-size: 80px;
+  position: absolute;
+  right: 33px;
+  bottom: -8px;
+}
+.secSec .link a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  color: white;
+  padding: 6rem 24rem;
+  height: auto;
+  font-size: 15px;
+}
+footer table tr td {
+  padding: 20px;
+}
+footer a {
+  color: grey;
+}
